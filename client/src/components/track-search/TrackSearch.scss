@@ -1,0 +1,74 @@
+
+.tracksearch {
+    min-height: 75%;
+
+    .tracksearch__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .tracksearch__title {
+            font-size: 2rem;
+        }
+
+        .tracksearch__form {
+
+        .tracksearch__search {
+            height: 3rem;
+            width: 15.3125rem;
+            border: 1px solid grey;
+            border-radius: 0.3125rem;
+            padding-left: 3rem;
+            background: url('https://cdn.shopify.com/s/files/1/0262/0584/7649/files/Icon-search.svg?58') no-repeat;
+            background-position: 1rem 50%;
+            background-color: unset;
+            color: black;
+        }
+
+        .tracksearch__submit {
+            margin-left: 1rem;
+        }
+    }
+    }
+
+    .tracksearch__listings {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 3.4375rem 2rem 55px;
+        align-items: center;
+
+        .tracklist-item {
+            display: flex;
+            height: 3.75rem;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 1rem;
+            justify-content: center;
+
+            .tracklist__icon {
+                width: 0.75rem;
+                height: auto;
+                margin-right: 1rem;
+            }
+
+            .tracklist__title {
+                margin: 0rem 1rem 0rem 0rem;
+                font-size: 1rem;
+                width: 200px;
+                text-align: left;
+                text-overflow: ellipsis;
+            }
+
+            .tracklist__artist {
+                margin: 0rem 1rem 0rem 0rem;
+                width: 200px;
+                text-align: left;
+                text-overflow: ellipsis;
+            }
+
+            .tracklist__button {
+                margin-left: 5%;
+            }
+        }
+    }
+}

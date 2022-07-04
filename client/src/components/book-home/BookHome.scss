@@ -1,0 +1,114 @@
+.bookhome {
+
+    &__information-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2rem 3.4375rem 3rem 3.4375rem;
+        align-items:center;
+
+        .bookhome__title-wrapper {
+            text-align: left;
+
+        .bookhome__title {
+            margin-bottom: 0px;
+        }
+
+        .bookhome__author {
+
+        }
+        }
+    
+
+    .bookhome__button-wrapper {
+        display: flex;
+
+    .bookhome__button--add-page {
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .bookhome__button--save-book {
+        display: flex;
+        align-items: center;
+    }
+    }
+}
+
+    &__pages-wrapper {
+        margin: 0rem 3.4375rem 0rem 3.4375rem;
+        min-height: 40vh;
+
+        .bookhome__no-pages-found {
+            font-size: 1rem;
+        }
+
+        .pagepreview {
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+
+            &__song-title {
+                font-size: 1.125rem;
+                margin: 0rem 8% 0rem 0rem;
+                width: 15.625rem;
+                text-overflow: ellipsis;
+                text-align: left;
+            }
+            &__song-artist {
+                font-size: 1rem;
+                width: 9.375rem;
+                text-overflow: ellipsis;
+                text-align: left;
+                margin: 0rem;
+            }
+            &__page-number {
+                font-size: 1.125rem;
+                margin: 0rem 1.5rem 0rem 2rem;
+                width: 0.9375rem;
+                text-align: left;
+            }
+            &__edit-button {
+                margin-left: 20%;
+            }
+
+            &__completion-status {
+                display: flex;
+                align-items: center;
+                width: 6.25rem;
+
+                .pagepreview__complete {
+                    width: 0.75rem;
+                    height: auto;
+                    margin-right: 1rem;
+                }
+
+                .pagepreview__incomplete {
+                    width: 0.75rem;
+                    height: auto;
+                    margin-right: 1rem;
+                }
+
+                .pagepreview__completion-text {
+                    font-size: 0.75rem;
+                    margin: 0rem 0rem 0rem 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+.icon {
+    width: 1rem;
+    height: auto;
+    margin: 0rem 1rem 0.25rem 0.5rem;
+}
+
+.header--icon {
+    width: 1rem;
+    height: auto;
+    margin: 0rem 1rem 0rem 0.5rem;
+}
