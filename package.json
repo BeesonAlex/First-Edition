@@ -8,7 +8,7 @@
     "start": "node server.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "homepage": "https://www.firstedition.com/tools/book-editor/.",
+  "homepage": "https://www.firstedition.com/tools/book-builder/.",
   "author": "Alex Beeson",
   "license": "ISC",
   "dependencies": {
