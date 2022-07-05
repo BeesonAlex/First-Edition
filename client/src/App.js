@@ -29,6 +29,7 @@ export class App extends Component {
 // Component Did Mount - Check whether Logged In or Guest
 componentDidMount() {
 
+// Check the window for set variables from the storefront
 const shopifyUser = {
   shopifyEmail: window.customerEmail,
   shopifyFirstName: window.customerFirstName,
