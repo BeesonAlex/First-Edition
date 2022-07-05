@@ -1,6 +1,9 @@
 {
   "name": "first-edition-server",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -19,11 +22,11 @@
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "mongoose": "^5.13.14",
-    "nodemon": "^1.19.3",
+    "nodemon": "^2.0.18",
     "nonce": "^1.0.4",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "shortid": "^2.2.15",
-    "simple-oauth2": "^3.0.1"
+    "simple-oauth2": "^4.3.0"
   }
 }
